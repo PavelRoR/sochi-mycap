@@ -1,5 +1,5 @@
 -var path = '../';
--var head_url = 'https://ipo.mycapitalland.ru/';
+-var head_url = 'https://sochi.mycapitalland.ru/';
 -var head_title = '«IPO – мощный инструмент для приумножения капитала»';
 -var head_description = 'Узнайте, как обрести финансовую свободу и не зависеть от зарплаты, начальника и кризиса';
 -var styles = path+'css/styles.min.css';
@@ -13,7 +13,7 @@
 -var formId = '26';
 -var formVc = '2750525908';
 //-var headerLight = true;
--var href = '#Modal';
+//-var href = '#Modal';
 -var form_target = '_blank';
 -var politics = 'politics.pdf';
 -var fbTag = true;
@@ -21,7 +21,7 @@
 mixin gt(cl,h3)
 	h3.general-title(class=cl)
 		span=h3
-mixin b(cl,clb,href,p,target,id)
+mixin b(cl,clb,href='#Modal',p,target,id)
 	.button-wrapper(class=cl)
 		a.button(class=clb href=href target=target id=id)=p
 mixin imgs(cl, src, alt)
@@ -37,11 +37,10 @@ html(lang="ru")
 		.wrapper
 			include pug/main/1-main
 			include pug/main/2-form
-			include pug/main/3-about
-			include pug/main/4-modal-line
-			include pug/main/5-results
+			include pug/main/3-why
+			include pug/main/4-plan
+			include pug/main/5-author
 			include pug/main/6-form-2
-			include pug/main/7-author
 			include pug/main/8-last
 		include pug/main/9-modal
 		include pug/base/3-scripts
