@@ -20,6 +20,8 @@
 		font-weight: bold
 		text-transform uppercase
 		margin-bottom: 20px
+		span
+			display inline-block
 	&-title
 		margin-left: 25px
 		font-family: GM
@@ -31,17 +33,16 @@
 			display inline-block
 			background-color: mBr
 			padding 15px 25px
-			line-height: .7
+			line-height: 1
 			margin-left: -25px
-		@media screen and (max-width 991px)
-			font-size: 34px
+		@media screen and (max-width 1199px)
+			font-size: 33px
 			margin-left: 0
 			span
 				margin-left: 0
+				padding 10px
 		@media screen and (max-width 560px)
 			font-size: 28px
-			span
-				padding 10px 15px
 		@media screen and (max-width 385px)
 			font-size: 24px
 			span
@@ -71,11 +72,14 @@
 		text-transform uppercase
 		letter-spacing 10px
 		margin-top: 40px
+		@media screen and (max-width 767px)
+			br
+				display none
 		@media screen and (max-width 560px)
 			margin-top: 25px
 			font-size: 25px
 		@media screen and (max-width 385px)
-			font-size: 22px
+			font-size: 20px
 .video-wrapper-main
 	max-width 560px
 	margin-top: 60px
