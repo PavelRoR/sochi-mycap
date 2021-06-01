@@ -1,0 +1,37 @@
+-var path = '../';
+-var head_url = 'https://sochi.mycapitalland.ru/2/';
+-var head_title = 'Давно искали перспективные проекты в сфере недвижимости?';
+-var head_description = 'Мы запускаем 2 проекта по ИЖС домов в Сочи с доходностью до 32% годовых!';
+-var styles = path+'css/styles-2.min.css';
+-var fav_ico = path+'favicon.ico';
+-var fav_png = path+'favicon.png';
+-var fav_ap = path+'favicon.svg';
+-var scripts = path+'js/thanks.js';
+-var politics = 'politics.pdf';
+-var fbTag = true;
+
+mixin gt(cl,h3)
+	h3.general-title(class=cl)!=h3
+mixin b(cl,clb,href,p,target,id)
+	.button-wrapper(class=cl)
+		a.button(class=clb href=href target=target id=id)=p
+mixin imgs(cl, src, alt)
+	img(class=cl src=path+src alt=alt)
+
+<!DOCTYPE html>
+html(lang="ru")
+	head
+		include pug/head
+		include pug/scripts/head_scripts
+	body
+		include pug/scripts/body_top_scripts
+		.wrapper
+			include pug/2/1-main
+			include pug/2/2-form
+			include pug/2/3-why
+			include pug/2/4-info
+			include pug/2/5-author
+			include pug/2/6-form-2
+			include pug/2/8-last
+		include pug/base/3-scripts
+		include pug/scripts/body_bottom_scripts

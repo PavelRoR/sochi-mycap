@@ -8,6 +8,4 @@
         ExpiresActive On ExpiresDefault "now"
 </IfModule>
 
-RewriteEngine On
-
 ErrorDocument 404  /404/
