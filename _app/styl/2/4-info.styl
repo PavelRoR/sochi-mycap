@@ -1,31 +1,26 @@
 #info
-	padding 90px 0
-	background-image: url(../img/images/laptop.png)
-	background-repeat: no-repeat
-	background-position: center
-	@media screen and (max-width 991px)
-		padding 60px 0
+	padding 60px 0
 	@media screen and (max-width 560px)
 		padding 40px 0
 	@media screen and (max-width 385px)
 		padding 30px 0
-.rect-info-1
-	z-index 0
-	width 100%
-	height 320px
-	background-color: #0F1F2F
-	right -40%
-	top 200px
-.rect-info-2
-	z-index 0
-	width 100%
-	height 380px
-	background-color: #0F1F2F
-	left -40%
-	bottom 100px
-.general-wrapper-info
-	margin-bottom: 50px
-.info-list
+// .rect-info-1
+// 	z-index 0
+// 	width 100%
+// 	height 320px
+// 	background-color: #0F1F2F
+// 	right -40%
+// 	top 200px
+// .rect-info-2
+// 	z-index 0
+// 	width 100%
+// 	height 380px
+// 	background-color: #0F1F2F
+// 	left -40%
+// 	bottom 100px
+.info-item-1
+	margin-bottom: 70px
+.info-item-list
 	li
 		list-style: none
 		margin-bottom: 20px
@@ -41,6 +36,8 @@
 			background-color: mBr
 			top 7px
 			left 0
+		&:last-child
+			margin-bottom: 0
 	@media screen and (max-width 991px)
 		li
 			br
@@ -48,21 +45,59 @@
 	@media screen and (max-width 560px)
 		li
 			margin-bottom: 15px
-			&:last-child
-				margin-bottom: 30px
-.info-title
+.info-item-title
 	font-family: GM
 	font-size: 20px
 	font-weight: 900
 	margin-bottom: 30px
 	text-transform uppercase
-.info-subtitle
+	@media screen and (max-width 385px)
+		margin-bottom: 20px
+		font-size: 18px
+.info-item-subtitle
 	font-family: GM
 	font-size: 18px
 	font-weight: 600
 	margin: 30px 0 20px
 	text-transform uppercase
-.info-text
+.info-item-text
 	font-family: GM
 	font-size: 18px
 	margin-bottom: 20px
+	@media screen and (max-width 385px)
+		margin-bottom: 10px
+.info-item-img
+	position relative
+	z-index 0
+	img
+		width auto
+		position absolute
+	&-1
+		img
+			top 200px
+			right -32px
+	&-2
+		img
+			top 300px
+			left -32px
+	@media screen and (min-width 2295px)
+		&-1
+			img
+				right 0
+		&-2
+			img
+				left 0
+	@media screen and (max-width 1199px)
+		&-1
+			img
+				right -72px
+		&-2
+			img
+				left -72px
+	@media screen and (max-width 991px)
+		img
+			position: static
+			display block
+			width 100%
+			max-width 532px
+			margin 0 auto 30px

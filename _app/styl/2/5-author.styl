@@ -21,6 +21,9 @@
 		padding 40px 0 0
 .general-title-author
 	color #fff
+	@media screen and (max-width 1199px)
+		br
+			display none
 .rect-author
 	background-color: mBr
 	width 1300px
@@ -60,7 +63,7 @@
 		max-width 728px
 	@media screen and (min-width 2295px)
 		img
-			right 150px
+			right 50px
 	@media screen and (max-width 1199px)
 		img
 			right -100px
@@ -75,3 +78,19 @@
 	text-align center
 	z-index 20
 	color #fff
+	@media screen and (min-width 2295px)
+		bottom: -37px;
+		right: 50px;
+	@media screen and (max-width 1199px)
+		bottom -303px
+		right: -100px
+		text-align: left
+		padding 5px 20px
+	@media screen and (max-width 991px)
+		bottom 0
+		right 0
+		text-align center
+		width 100%
+	@media screen and (max-width 385px)
+		padding 5px
+		font-size: 16px
