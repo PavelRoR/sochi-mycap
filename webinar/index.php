@@ -1,3 +1,4 @@
+<?php require_once('../date/date.php');?>
 <!DOCTYPE html>
 <html lang="ru">
   <head>
@@ -5,17 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <meta name="facebook-domain-verification" content="pmmnzbggx2hlfaibjkce3ncs2ukuqc"/>
-    <meta property="og:url" content="https://sochi.mycapitalland.ru/"/>
+    <meta property="og:url" content="https://sochi.mycapitalland.ru/webinar/"/>
     <meta property="og:title" content="«Ивестиции в недвижимость Сочи»"/>
     <meta property="og:description" content="Онлайн-встреча с Юрием Медушенко"/>
     <title>«Ивестиции в недвижимость Сочи» Онлайн-встреча с Юрием Медушенко</title>
-    <link rel="apple-touch-icon" href="favicon.svg"/>
-    <link rel="apple-touch-icon" sizes="76x76" href="favicon.svg"/>
-    <link rel="apple-touch-icon" sizes="120x120" href="favicon.svg"/>
-    <link rel="apple-touch-icon" sizes="152x152" href="favicon.svg"/>
-    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.png"/>
-    <link rel="stylesheet" href="css/styles.min.css"/>
+    <link rel="apple-touch-icon" href="../favicon.svg"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="../favicon.svg"/>
+    <link rel="apple-touch-icon" sizes="120x120" href="../favicon.svg"/>
+    <link rel="apple-touch-icon" sizes="152x152" href="../favicon.svg"/>
+    <link rel="icon" type="image/x-icon" href="../favicon.ico"/>
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.png"/>
+    <link rel="stylesheet" href="../css/styles.min.css"/>
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-NQFH5LF');</script> 
     <!-- End Google Tag Manager -->
@@ -29,11 +30,11 @@
       <section id="main">
         <header class="header-light">
           <div class="container">
-            <div class="logo"><a class="logo-link" href="https://mycapitalland.ru/"><img class="logo-link-img" src="img/images/logo.png" alt="Логотип"/></a>
+            <div class="logo"><a class="logo-link" href="https://mycapitalland.ru/"><img class="logo-link-img" src="../img/images/logo.png" alt="Логотип"/></a>
               <p class="logo-text">Инвестиционный холдинг <br/>«Мой капитал»</p>
             </div>
             <div class="header-nav">
-              <div class="logo logo-mobile"><a class="logo-link" href="https://mycapitalland.ru/"><img class="logo-link-img" src="img/images/logo.png" alt="Логотип"/></a>
+              <div class="logo logo-mobile"><a class="logo-link" href="https://mycapitalland.ru/"><img class="logo-link-img" src="../img/images/logo.png" alt="Логотип"/></a>
                 <p class="logo-text">Инвестиционный холдинг <br/>«Мой капитал»</p>
               </div>
               <div class="contacts">
@@ -59,7 +60,7 @@
               <h1 class="main-title">Инвестиции <br/><span>в недвижимость Сочи</span></h1>
               <h2 class="main-subtitle">На рынке недвижимости Сочи ажиотаж: <br/>цены растут, как на дрожжах!</h2>
               <div class="main-info">
-                <p class="main-info-text">Дата и время проведения: <span>16 июня, в 19:00 (мск)</span></p>
+                <p class="main-info-text">Дата и время проведения: <span><?= $dateDay1Text;?> <?= $dateMonthText;?>, в 19:00 (мск)</span></p>
                 <p class="main-info-text">Ведущий: <span>Юрий Медушенко</span></p>
               </div>
             </div>
@@ -79,7 +80,7 @@
               <h3 class="form-title">СПЕШИТЕ ЗАПИСАТЬСЯ</h3>
             </div>
             <div class="col-md-7">
-              <form class="form form-1" action="https://mycapital.autoweboffice.ru/?r=personal/newsletter/sub/add&amp;id=28323&amp;lg=ru&amp;Contact[id_newsletter]=36" method="post" enctype="application/x-www-form-urlencoded" accept-charset="UTF-8" target="_blank">
+              <form class="form form-1" action="https://mycapital.autoweboffice.ru/?r=personal/newsletter/sub/add&amp;id=28323&amp;lg=ru&amp;Contact[id_newsletter]=38" method="post" enctype="application/x-www-form-urlencoded" accept-charset="UTF-8" target="_blank">
                 <div class="email-block email-block-form">
                   <input type="hidden" value="1" name="required_fields[email]"/>
                   <input class="input input-mail input-mail-section" name="Contact[email]" type="text" placeholder="E-mail"/>
@@ -93,11 +94,11 @@
                 </div>
                 <div style="display: none;">
                   <div id="formTypeSpecificVars-1" style="display: none;">
-                    <input type="hidden" value="36" id="form_newsletter_id_newsletter_1" name="Contact[id_newsletter]"/>
+                    <input type="hidden" value="38" id="form_newsletter_id_newsletter_1" name="Contact[id_newsletter]"/>
                   </div><!-- API код канала рекламы -->
                   <input type="hidden" value="0" id="form_newsletter_id_advertising_channel_page_1" name="Contact[id_advertising_channel_page]"/>
-                  <input type="hidden" name="formId" value="27"/>
-                  <input type="hidden" name="formVc" value="3282811932"/>
+                  <input type="hidden" name="formId" value="28"/>
+                  <input type="hidden" name="formVc" value="1738425480"/>
                   <input type="hidden" name="_aid" value=""/>
                   <input type="hidden" name="_vcaid" value=""/>
                 </div>
@@ -174,7 +175,7 @@
                 </div>
               </div>
               <div class="col-md-5">
-                <div class="general-img general-img-plan"><img src="img/images/laptop.png" alt="Лаптоп"/>
+                <div class="general-img general-img-plan"><img src="../img/images/laptop.png" alt="Лаптоп"/>
                 </div>
               </div>
             </div>
@@ -186,7 +187,7 @@
           <h3 class="general-title general-title-left general-title-author">Ведущий онлайн-встречи - Юрий Медушенко</h3>
           <div class="row">
             <div class="col-md-5 col-md-push-7">
-              <div class="general-img general-img-author"><img src="img/images/yuriy.png" alt="Юрий Медушенко"/>
+              <div class="general-img general-img-author"><img src="../img/images/yuriy.png" alt="Юрий Медушенко"/>
               </div>
             </div>
             <div class="col-md-7 col-md-pull-5">
@@ -210,7 +211,7 @@
               <h3 class="form-title">СПЕШИТЕ ЗАПИСАТЬСЯ</h3>
             </div>
             <div class="col-md-7">
-              <form class="form form-1" action="https://mycapital.autoweboffice.ru/?r=personal/newsletter/sub/add&amp;id=28323&amp;lg=ru&amp;Contact[id_newsletter]=36" method="post" enctype="application/x-www-form-urlencoded" accept-charset="UTF-8" target="_blank">
+              <form class="form form-1" action="https://mycapital.autoweboffice.ru/?r=personal/newsletter/sub/add&amp;id=28323&amp;lg=ru&amp;Contact[id_newsletter]=38" method="post" enctype="application/x-www-form-urlencoded" accept-charset="UTF-8" target="_blank">
                 <div class="email-block email-block-form">
                   <input type="hidden" value="1" name="required_fields[email]"/>
                   <input class="input input-mail input-mail-section" name="Contact[email]" type="text" placeholder="E-mail"/>
@@ -224,11 +225,11 @@
                 </div>
                 <div style="display: none;">
                   <div id="formTypeSpecificVars-1" style="display: none;">
-                    <input type="hidden" value="36" id="form_newsletter_id_newsletter_1" name="Contact[id_newsletter]"/>
+                    <input type="hidden" value="38" id="form_newsletter_id_newsletter_1" name="Contact[id_newsletter]"/>
                   </div><!-- API код канала рекламы -->
                   <input type="hidden" value="0" id="form_newsletter_id_advertising_channel_page_1" name="Contact[id_advertising_channel_page]"/>
-                  <input type="hidden" name="formId" value="27"/>
-                  <input type="hidden" name="formVc" value="3282811932"/>
+                  <input type="hidden" name="formId" value="28"/>
+                  <input type="hidden" name="formVc" value="1738425480"/>
                   <input type="hidden" name="_aid" value=""/>
                   <input type="hidden" name="_vcaid" value=""/>
                 </div>
@@ -262,7 +263,7 @@
     <div class="white-popup mfp-hide" id="Modal">
       <h3 class="modal-title">Спешите записаться!</h3>
       <h3 class="modal-title hide">Мастер-класс завершён!</h3>
-      <form class="form form-modal" action="https://mycapital.autoweboffice.ru/?r=personal/newsletter/sub/add&amp;id=28323&amp;lg=ru&amp;Contact[id_newsletter]=36" method="post" enctype="application/x-www-form-urlencoded" accept-charset="UTF-8" target="_blank">
+      <form class="form form-modal" action="https://mycapital.autoweboffice.ru/?r=personal/newsletter/sub/add&amp;id=28323&amp;lg=ru&amp;Contact[id_newsletter]=38" method="post" enctype="application/x-www-form-urlencoded" accept-charset="UTF-8" target="_blank">
         <div class="email-block email-block-form">
           <input type="hidden" value="1" name="required_fields[email]"/>
           <input class="input input-mail input-mail-modal" name="Contact[email]" type="text" placeholder="Ваш email"/>
@@ -276,17 +277,17 @@
         </div>
         <div style="display: none;">
           <div id="formTypeSpecificVars-4" style="display: none;">
-            <input type="hidden" value="36" id="form_newsletter_id_newsletter_4" name="Contact[id_newsletter]"/>
+            <input type="hidden" value="38" id="form_newsletter_id_newsletter_4" name="Contact[id_newsletter]"/>
           </div><!-- API код канала рекламы -->
           <input type="hidden" value="0" id="form_newsletter_id_advertising_channel_page_4" name="Contact[id_advertising_channel_page]"/>
-          <input type="hidden" name="formId" value="27"/>
-          <input type="hidden" name="formVc" value="3282811932"/>
+          <input type="hidden" name="formId" value="28"/>
+          <input type="hidden" name="formVc" value="1738425480"/>
           <input type="hidden" name="_aid" value=""/>
           <input type="hidden" name="_vcaid" value=""/>
         </div>
       </form>
     </div>
-    <script src="js/libs.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="../js/libs.min.js"></script>
+    <script src="../js/scripts.js"></script>
   </body>
 </html>
