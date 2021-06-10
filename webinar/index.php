@@ -220,14 +220,14 @@
                 <div class="clearfix"></div>
                 <p class="alert-message"></p>
                 <div class="checking checking-form checking-main">
-                  <input class="check" type="checkbox" id="check-1"/>
-                  <label class="check-label" for="check-1">Я согласен с <a href="politics.pdf" target="_blank">условиями обработки</a> персональных данных по 152 - Ф3</label>
+                  <input class="check" type="checkbox" id="check-2"/>
+                  <label class="check-label" for="check-2">Я согласен с <a href="politics.pdf" target="_blank">условиями обработки</a> персональных данных по 152 - Ф3</label>
                 </div>
                 <div style="display: none;">
-                  <div id="formTypeSpecificVars-1" style="display: none;">
-                    <input type="hidden" value="38" id="form_newsletter_id_newsletter_1" name="Contact[id_newsletter]"/>
+                  <div id="formTypeSpecificVars-2" style="display: none;">
+                    <input type="hidden" value="38" id="form_newsletter_id_newsletter_2" name="Contact[id_newsletter]"/>
                   </div><!-- API код канала рекламы -->
-                  <input type="hidden" value="0" id="form_newsletter_id_advertising_channel_page_1" name="Contact[id_advertising_channel_page]"/>
+                  <input type="hidden" value="0" id="form_newsletter_id_advertising_channel_page_2" name="Contact[id_advertising_channel_page]"/>
                   <input type="hidden" name="formId" value="28"/>
                   <input type="hidden" name="formVc" value="1738425480"/>
                   <input type="hidden" name="_aid" value=""/>
